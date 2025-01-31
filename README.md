@@ -1,4 +1,5 @@
 # 飞机大战
+直接开玩：https://yunsen921.github.io/plane-game.github.io/
 
 ## 玩法说明
 

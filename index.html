@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>飞机大战</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div class="score">得分：<span id="score">0</span></div>
+        <button id="startButton">开始游戏</button>
+        <button id="restartButton">再来一局</button>
+    </div>
+    <div class="upgrade-buttons">
+        <button id="upgradeSpeedButton" class="upgradeButton">升级速度</button>
+        <button id="upgradeBulletSpeedButton" class="upgradeButton">升级子弹速度</button>
+        <button id="upgradeBulletCountButton" class="upgradeButton">升级弹道数量</button>
+    </div>
+    <div class="instructions">
+        <p>玩法说明：</p>
+        <ul>
+            <li>点击“开始游戏”按钮开始游戏。</li>
+            <li>使用键盘上的A键和D键控制玩家飞机的左右移动。</li>
+            <li>玩家飞机会自动发射子弹。</li>
+            <li>击毁敌方飞机得分，得分显示在右上角。</li>
+            <li>随着时间的推移，敌方飞机的速度和数量会逐渐增加。</li>
+            <li>如果敌方飞机碰到玩家飞机，游戏结束。</li>
+            <li>按P键暂停或继续游戏。</li>
+            <li>每获得50分可以使用升级按钮升级玩家飞机的速度、子弹速度或弹道数量，有且只有这一次升级。</li>
+        </ul>
+        <p>祝你好运，享受游戏！</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
